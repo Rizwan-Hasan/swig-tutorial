@@ -1,8 +1,9 @@
 #include <iostream>
 #include "square.hpp"
+using namespace std;
 
 int main() {
     Square sq(4);
-    std::cout << "Area: " << sq.area() << std::endl;
+    cout << "Area: " << sq.area() << endl;
     return 0;
 }
