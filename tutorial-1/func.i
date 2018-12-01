@@ -1,6 +1,6 @@
 %module func
 %{
-#include "func.hpp"
+	#include "func.hpp"
 %}
 
 int add(int a, int b);
